@@ -17,8 +17,8 @@ const displayData = datas => {
         <img  src="${data.flag}" class="card-img-top img-size" alt="...">
         <div class="card-body mt-3 text-center bg-primary shadow rounded-3 text-light">
             <h5 class="card-title fw-bold fs-3 ">${data.name}</h5>
-            <p class="card-text">Independent : ${independentStatus(data.independent)}</p>
-            <p class="card-text">Population : ${data.population}</p>
+            <p>Independent : ${independentStatus(data.independent)}</p>
+            <p>Population : ${data.population}</p>
         </div>
         </div>
     </div>        
